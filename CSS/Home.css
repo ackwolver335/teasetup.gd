@@ -1,0 +1,173 @@
+body{
+	font-family: 'Work Sans', sans-serif;
+	animation: onload_transition 0.8s;
+}
+
+@keyframes onload_transition {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.intro{
+	margin-top: 40px;
+	align-items: center;
+}
+
+.phase1{
+	background: linear-gradient(30deg, #fb8500, white);
+	width: 500px;
+	height: 300px;
+	margin: 20px 0px 10px 50px;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+.phase1 h1{
+	color: #fb5600;
+	margin: 50px 0px 5px 150px;
+	padding: 10px 0px 0px 10px;
+}
+
+.phase1 p{
+	color: #fb5600;
+	font-size: 16px;
+	padding: 5px 0px 0px 150px;
+}
+
+.phase2{
+	margin: 20px 0px 10px 0px;
+}
+
+.list-group{
+	backface-visibility: hidden;
+}
+
+.list-group-item{
+	text-align: center;
+	color: #007BFF;
+	transition: 0.4s;
+	cursor: default;
+}
+
+.list-group-item:hover{
+	background-color: lightgrey;
+}
+
+.heading_famed{
+	padding: 20px 0px 5px 50px;
+	margin-bottom: 25px;
+	font-size: 2rem;
+}
+
+.para__1{
+	font-size: 14px;
+	padding-bottom: 2px;
+	margin-bottom: 3px;
+}
+
+.card_party_one{
+	margin-bottom: 10px;
+}
+
+.img1{
+	width: 200px;
+	height: 150px;
+}
+
+.img2{
+	width: 300px;
+	height: 200px;
+}
+
+.heading_tea{
+	padding: 20px 50px 5px 0px;
+	margin-bottom: 10px;
+	font-size: 32px;
+	text-align: right;
+}
+
+.img3{
+	height: 480px;
+}
+
+.one_all{
+	text-decoration: none;
+	text-align: center;
+}
+
+.part2{
+	gap: 50px;
+}
+
+#floatinginput{
+	font-size: 14px;
+}
+
+#floatingpassword{
+	font-size: 14px;
+}
+
+.last_one{
+	gap: 10px;
+}
+
+.button_one{
+	padding: 0;
+	margin: 0;
+}
+
+.carded_one{
+	width: 21rem;
+	transition: 1s;
+}
+
+.carded_two{
+	width: 21rem;
+	transition: 1s;
+}
+
+.carded_one:hover{
+	top: -10px;
+}
+
+.carded_two:hover{
+	top: 10px;
+}
+
+.flex_wrap{
+	flex-wrap: wrap;
+}
+
+.card_blocked{
+	width: 50rem;
+	height: 32rem;
+	border: none;
+}
+
+.info_center{
+	width: 62rem;
+}
+
+.B_w_one{
+	font-size: 28px;
+}
+
+.part3{
+	margin: 20px 30px 10px 0px;
+}
+
+.last_card{
+	width: 22rem;
+	border: none;
+}
+
+.last_div{
+	width: 90%; 
+	background-color: #FFC107; 
+	height: 2px;
+	margin: 10px 0px 0px 50px;
+}

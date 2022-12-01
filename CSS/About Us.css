@@ -1,0 +1,65 @@
+body{
+	font-family: 'Work Sans', sans-serif;
+	animation: onload_transition 0.8s;
+}
+
+@keyframes onload_transition {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.mine_one{
+	margin-top: 80px;
+}
+
+.img1{
+	width: 850px;
+	height: 520px;
+	margin-left: 270px;
+	border-radius: 10px;
+}
+
+.img2{
+	border-radius: 10px;
+	width: auto;
+	height: 520px;
+	margin-left: 270px;
+}
+
+.one_it{
+	color: black;
+}
+
+.grow_it{
+	width: 150px;
+	height: 150px;
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+.tea-menu-1{
+	margin-left: 40px;
+	gap: 50px;
+}
+
+.one_all{
+	text-decoration: none;
+	text-align: center;
+}
+
+.button_one{
+	padding: 0;
+	margin: 0;
+}
+
+.last_one{
+	gap: 10px;
+}
+
+.part2{
+	gap: 50px;
+}

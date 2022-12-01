@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel = "icon" type = "image/png" href = "Images/Frame.png">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100;0,200;0,300;0,400;1,100&family=Montserrat:wght@500&family=Vazirmatn:wght@200&family=Work+Sans&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel = "stylesheet" type = "text/css" href = "CSS/About Us.css">
+	<title> Tea Setup - About Us </title>
+</head>
+<body>
+	<nav class = "navbar navbar-expand-lg navbar-light bg-light fixed-top">
+		<div class = "container-fluid">
+			<a href = "Home.html" class = "navbar-brand"> Tea Setup </a>
+			<div class = "collapse navbar-collapse" id = "navbarSupportedContent">
+				<ul class = "navbar-nav me-auto mb-lg-0 nav-pills">
+					<li class = "nav-item">
+						<a href = "index.html" class = "nav-link text-warning" aria-current = "page"> Delightful Home </a>
+					</li>
+					<li class = "nav-item">
+						<a href = "About Us.html" class = "nav-link text-warning active bg-dark"> About Us </a>
+					</li>
+					<li class = "nav-item">
+						<a href = "Contact Us.html" class = "nav-link text-warning"> Contact Us </a>
+					</li>
+					<li class="nav-item dropdown">
+          				<a class = "nav-link dropdown-toggle text-warning" href = "#" id = "navbarDropdown" role = "button" data-bs-toggle = "dropdown" aria-expanded = "false"> Help Center </a>
+			          <ul class = "dropdown-menu bg-dark" aria-labelledby = "navbarDropdown">
+			            <li> <a class = "dropdown-item text-warning" href = "Create Cart.html"> Create Cart </a> </li>
+			            <li> <a class = "dropdown-item text-warning" href = "Log In.html"> Log In </a></li>
+			          </ul>
+        			</li>
+				</ul>
+				<form class = "d-flex">
+					<input type = "text" class = "form-control me-2" type = "Search" placeholder = "Search" aria-label = "Search" required>
+					<button class = "btn btn-warning" type = "Submit"> Search </button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<div class = "carousel slide mine_one" id = "carouselforshop" data-bs-ride = "carousel">
+		<div class = "carousel-indicators">
+			<button type = "button" data-bs-target = "#carouselforshop" data-bs-slide-to = "0" class = "active m-3" arai-current = "true" aria-label = "Slide 1">  </button>
+			<button type = "button" data-bs-target = "#carouselforshop" data-bs-slide-to = "1" arai-label = "Slide 2" class = "m-3"></button>
+			<button type = "button" data-bs-target = "#carouselforshop" data-bs-slide-to = "2" aria-label = "Slide 3" class = "m-3"></button>
+		</div>
+		<div class = "carousel-inner">
+			<div class = "carousel-item active" data-bs-interval = "2000">
+				<img src = "Images/Delight_first.jpg" alt = "Slide_one_picture" class = "d-block img1 shadow p-3 mb-3 bg-body rounded">
+				<div class = "carousel-caption d-md-block">
+					<h4 class = "text-danger"> The Delight we provide </h4>
+					<p class = "text-danger">
+						Together by sharing moments with your friends and relatives with full of enjoyment.
+					</p>
+				</div>
+			</div>
+			<div class = "carousel-item" data-bs-interval = "2000">
+				<img src = "Images/Delight_Second.jpg" alt = "Slide_two_picture" class = "d-block img1 shadow p-3 mb-3 bg-body rounded">
+				<div class = "carousel-caption d-md-block">
+					<h4 class = "text-success"> Share your moments with Us! </h4>
+					<p class = "text-success">
+						Click a picture and share on the Chat and Messaging on the Chat in this site.
+					</p>
+				</div>
+			</div>
+			<div class = "carousel-item" data-bs-interval = "2000">
+				<img src = "Images/Delight_last.jpg" alt = "Slide_last_picture" class = "d-block img2 shadow p-3 mb-3 bg-body rounded">
+				<div class = "carousel-caption d-md-block">
+					<h4 class = "text-warning"> Snacky is on the Way!! </h4>
+					<p class = "text-warning">
+						You can also give your moment the final touch by giving it the snack's final touch.
+					</p>
+				</div>
+			</div>
+		</div>	
+		<button class = "carousel-control-prev one_it" type = "button" data-bs-target = "#carouselforshop" data-bs-slide = "prev">
+			<i class="fa fa-reply grow_it" aria-hidden="true"></i>
+			<span class = "visually-hidden"> Previous </span>
+		</button>
+		<button class = "carousel-control-next one_it" type = "button" data-bs-target = "#carouselforshop" data-bs-slide = "next">
+			<i class="fa fa-share grow_it" aria-hidden="true"></i>
+			<span class = "visually-hidden"> Next </span>
+		</button>
+	</div>
+	<div class = "working container-xl mt-3 mb-3 shadow bg-body rounded">
+		<h3 class = "fs-2 text-dark p-3"> Procedure of Working : </h3>
+		<div class = "d-flex flex-column">
+			<div class = "explained_one container-sm w-75 shadow p-3 mt-2 mb-2 bg-body rounded">
+				<div class = "card mb-1" style = "border: none;">
+					<img src = "Images/Restaurants.jpg" alt = "Restaurent_delight" class = "card-img-top mb-2">
+					<div class = "card-body bg-primary">
+						<h4 class = "card-title text-center"> Either you will be served in Restaurant </h4>
+						<ul class = "card-text list-group text-center">
+							<li class = "list-group-item list-group-item-action"> Reach to the Address of Restaurant </li>
+							<li class = "list-group-item list-group-item-action"> Get inside and take up the seat </li>
+							<li class = "list-group-item list-group-item-action"> Order and then enjoy the beautiful delight </li>
+						</ul>
+					</div>
+					<div class = "card-footer mb-0 pb-0">
+						<p class = "text-dark text-center"> Payment would be accepted in cash or in cashless way. </p>
+					</div>
+				</div>
+			</div>
+			<div class = "explained_two container-sm w-75 shadow p-3 mt-2 mb-3 bg-body rounded">
+				<div class = "card" style = "border: none;">
+					<div class = "card-body bg-primary">
+						<h4 class = "card-title text-center"> Or Order online by the your smart-device </h4>
+						<ul class = "card-text list-group text-center">
+							<li class = "list-group-item list-group-item-action"> Open our site by www.teasetup.com </li>
+							<li class = "list-group-item list-group-item-action"> By the starting of the page either create account or click on Order Now! </li>
+							<li class = "list-group-item list-group-item-action"> Fill required details and click on send request! </li>
+						</ul>
+					</div>
+					<img src = "Images/Site Shortcut.png" alt = "Controls_of_Working" class = "card-img-bottom mt-2">
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "delights_of_menu d-flex justify-content-around mb-3 mt-4">
+		<div class = "menu p-3 border border-2 border-light rounded" style = "width: 50rem;">
+			<nav class = "navbar navbar-light bg-light px-3 mt-2" id = "menu_in_total">
+				<a href = "#" class = "navbar-brand"> Our Menu </a>
+				<ul class = "nav me-2">
+					<li class = "nav-item">
+						<a href = "#scrollspyheading1" class = "nav-link"> Tea </a>
+					</li>
+					<li class = "nav-item">
+						<a href = "#scrollspyheading2" class = "nav-link"> Coffee </a>
+					</li>
+					<li class = "nav-item">
+						<a href = "#scrollspyheading3" class = "nav-link"> Snacks </a>
+					</li>
+				</ul>
+			</nav>
+			<div data-bs-spy = "scroll" data-bs-target = "#menu_in_total" data-bs-offset = "0" class = "scrollspy-example p-2 mt-2" tab-index = "0" style = "height: 25rem; overflow-y: scroll;">
+				<div class = "d-flex flex-column justify-content-evenly" style = "width: 40rem;" id = "scrollspyheading1">
+					<div class = "d-flex tea-menu-1">
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Darjeeling.jpg" class = "card-img-top p-2" alt = "Darjeeling Images">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Darjeeling </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/English Breakfast Tea.jpg" alt = "English Breakfast Tea" class = "card-img-top p-2">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> English Breakfast Tea </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class = "d-flex flex-column justify-content-evenly mt-2" style = "width: 40rem;">
+					<div class = "d-flex tea-menu-1">
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Matcha.jpg" class = "card-img-top p-2" alt = "Matcha Tea">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Matcha Tea </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Chai.jpg" alt = "Chai" class = "card-img-top p-2">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Chai / Normal Tea </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class = "d-flex flex-column justify-content-evenly mt-2" style = "width: 40rem;">
+					<div class = "d-flex tea-menu-1">
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Earl Grey.jpg" class = "card-img-top p-2" alt = "Earl Grey">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Earl Grey </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Chamomile.jpg" alt = "Chamomile" class = "card-img-top p-2">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Chamomile </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class = "d-flex flex-column justify-content-evenly mt-2" style = "width: 40rem;" id = "scrollspyheading2">
+					<div class = "d-flex tea-menu-1">
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Espresso.jpg" class = "card-img-top p-2" alt = "Espresso">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Espresso </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Cappuccino.jpg" alt = "Cappuccino" class = "card-img-top p-2">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Cappuccino </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class = "d-flex flex-column justify-content-evenly mt-2" style = "width: 40rem;">
+					<div class = "d-flex tea-menu-1">
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Cortado.jpg" class = "card-img-top p-2" alt = "Cortado">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Cortado </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Ristretto.jpg" alt = "Ristretto" class = "card-img-top p-2">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Ristretto </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class = "d-flex flex-column justify-content-evenly mt-2" style = "width: 40rem;">
+					<div class = "d-flex tea-menu-1">
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Frappe.jpg" class = "card-img-top p-2" alt = "Frappe">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Frappe </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Flat White.jpg" alt = "Flat White" class = "card-img-top p-2">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Flat White </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class = "d-flex flex-column justify-content-evenly mt-2" style = "width: 40rem;" id = "scrollspyheading3">
+					<div class = "d-flex tea-menu-1">
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Panner Pakoda.jpg" class = "card-img-top p-2" alt = "Panner Pakoda">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Paneer Pakoda </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity Per Plate </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Vada Pav.jpg" alt = "Vada pav" class = "card-img-top p-2">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Vada Pav </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class = "d-flex flex-column justify-content-evenly mt-2" style = "width: 40rem;">
+					<div class = "d-flex tea-menu-1">
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Batata Poha.jpg" class = "card-img-top p-2" alt = "Batata Poha">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Batata Poha </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Grilled Cheese Sandwich.jpg" alt = "Grilled Cheese Sandwich" class = "card-img-top p-2">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Grilled Cheese Sandwich </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity per plate </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class = "d-flex flex-column justify-content-evenly mt-2" style = "width: 40rem;">
+					<div class = "d-flex tea-menu-1">
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Samosa.jpg" class = "card-img-top p-2" alt = "Samosa">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Samosa </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+						<div class = "card" style = "width: 23rem; border: none;">
+							<img src = "Images/Khari Biscuit.jpg" alt = "Khari Biscuit" class = "card-img-top p-2">
+							<div class = "card-body">
+								<h5 class = "card-title text-dark"> Khari Biscuit </h5>
+								<form class = "form-floating">
+									<input type = "number" id = "Quantity" class = "form-control text-primary" placeholder = "0">
+									<label class = "text-success" id = "Quantity"> Quantity per plate </label>
+								</form>
+								<button class = "btn btn-primary mt-2 mb-0"> Add to Cart + </button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "sketch_one">
+			<h3 class = "text-primary align-middle p-3"> Delight - full of menu </h3>
+			<ul class = "list-group text-center" style = "cursor: pointer;">
+				<li class = "list-group-item list-group-item-action"> Tea with Paneer Pakoda </li>
+				<li class = "list-group-item list-group-item-action"> Tea with VadaPav </li>
+				<li class = "list-group-item list-group-item-action"> Coffee with Black Cookies </li>
+				<li class = "list-group-item list-group-item-action"> Coffee with Black Bourbon </li>
+				<li class = "list-group-item list-group-item-action"> Tea with Batata Poha </li>
+				<li class = "list-group-item list-group-item-action"> Tea with Grilled Cheese Sandwich </li>
+				<li class = "list-group-item list-group-item-action"> Tea with Samosa ( Chutni ) </li>
+				<li class = "list-group-item list-group-item-action"> Nylon Khaman Dhokla </li>
+				<li class = "list-group-item list-group-item-action"> Khari Biscuit, Puffy Pastry Biscuit </li>
+				<li class = "list-group-item list-group-item-action"> Dal Vada, Idli Vada </li>
+			</ul>
+		</div>
+	</div>
+	<div class = "d-flex justify-content-center mb-3 mt-2">
+		<div class = "card text-center" style = "width: 62rem;">
+			<div class = "card-body bg-dark">
+				<h4 class = "card-header text-white"> For any kind of issue, message or inform us here! </h4>
+				<div class = "d-flex justify-content-center p-2 bg-light">
+					<form style = "width: 45rem;">
+						<div class = "form-floating mb-2">
+							<input type = "text" id = "username" placeholder = "Username" class = "form-control text-primary" required>
+							<label class = "text-success" id = "username"> Name </label>
+						</div>
+						<div class = "form-floating mb-2">
+							<input type = "email" id = "user_email" placeholder = "example@gmail.com" class = "form-control text-primary" required>
+							<label class = "text-success" id = "user_email"> Email </label>
+						</div>
+						<div class = "form-floating mb-2">
+							<input type = "password" id = "user_password" placeholder = "*******" class = "form-control text-primary" required>
+							<label class = "text-success" id = "user_password"> Password </label>
+						</div>
+						<div class = "form-floating mb-2">
+							<input type = "tel" id = "user_contact" placeholder = "+91XXXXXX" class = "form-control text-primary" required>
+							<label class = "text-success" id = "user_contact"> Contact No. </label>
+						</div>
+						<div class = "form-floating mb-2">
+							<select class = "form-select text-primary" id = "product" aria-label = "floatingLabel" required>
+								<option selected> None </option>
+								<option value = "1"> Tea </option>
+								<option value = "2"> Coffee </option>
+								<option value = "3"> Snacks </option>
+							</select>
+							<label id = "product" class = "text-success"> For which Product </label>
+						</div>
+						<div class = "form-floating mb-2">
+							<textarea class = "form-control text-primary" placeholder = "Leave your issue here!" id = "floatingTextarea" col = "10" row = "10" style = "resize: none;" required></textarea>
+							<label id = "floatingTextarea" class = "text-success"> Your Issue </label>
+						</div>
+						<input type = "Submit" value = "Send Request" class = "btn btn-primary">
+						<input type = "Reset" value = "Clear All" class = "btn btn-primary">
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class = "footer bg-dark">
+		<div class = "d-flex justify-content-around">
+			<div class = "card" style = "width: 20rem; border: none; margin: 20px 0px 10px 30px;">
+				<img src = "Images/All_in_one.jpg" class = "card-img-top" alt = "All in Final One">
+				<div class = "card-body bg-dark">
+					<h4 class = "card-title text-warning"> Tea Setup </h4>
+				</div>
+			</div>
+			<div class = "part2 d-flex" style = "margin: 20px 0px 10px 0px;">
+				<div class = "bg-dark">
+					<h3 class = "fs-3 text-white"> We Provides </h3>
+					<nav class = "nav d-flex flex-column">
+						<a href = "Sub-Sections/Teas.html" class = "text-white one_all"> Teas </a>
+						<a href = "Sub-Sections/Coffee.html" class = "text-white one_all"> Coffees </a>
+						<a href = "Sub-Sections/Detailed Menu.html" class = "text-white one_all"> Detailed View </a>
+						<a href = "Sub-Sections/Menu.html" class = "text-white one_all"> Menu </a>
+					</nav>
+				</div>
+				<div class = "bg-dark">
+					<h3 class = "fs-3 text-white"> You Provides </h3>
+					<nav class = "nav d-flex flex-column">
+						<a href = "#" class = "text-white one_all"> Experience </a>
+						<a href = "#" class = "text-white one_all"> Ideas </a>
+						<a href = "#" class = "text-white one_all"> Moments </a>
+						<a href = "#" class = "text-white one_all"> Happiness </a>
+					</nav>
+				</div>
+			</div>
+			<div class = "part3" style = "margin: 20px 30px 10px 0px;">
+				<div class = "card bg-light" style = "width: 22rem; border: none;">
+					<div class = "card-body bg-light" style = "border-radius: 10px;">
+						<h4 class = "card-title text-dark"> Join Us here! </h4>
+						<form>
+							<div class = "form-floating mb-2">
+								<input type = "email" class = "form-control" id = "floatinginput" placeholder = "name@example.com">
+								<label id = "floatinginput"> Email </label>
+							</div>
+							<div class = "form-floating mb-2">
+								<input type = "password" class = "form-control" id  = "floatingpassword" placeholder = "Password">
+								<label id = "floatingpassword"> Password </label>
+							</div>
+							<input type = "Submit" value = "Send" class = "btn btn-primary">
+							<input type = "Reset" value = "Clear" class = "btn btn-primary">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class = "down_one bg-dark" style = "margin-bottom: 0;">
+			<nav class = "nav d-flex justify-content-center last_one">
+				<a href = "#" class = "text-white one_all"> Features </a>
+				<a href = "#" class = "text-white one_all"> Discounts </a>
+				<a href = "#" class = "text-white one_all"> FAQs </a>
+			</nav>
+			<div align = "center" style = "width: 90%; background-color: #FFC107; height: 2px; margin: 10px 0px 0px 50px;"></div>
+			<div class = "d-flex justify-content-between" style = "margin: 10px 40px 0px 40px;">
+				<div>
+					<p class = "text-white"> &copy; 2022 Company, Inc 24 x 7 </p>
+				</div>
+				<div style = "margin-right: 50px; margin-bottom: 0;">
+					<button type = "button" class = "btn bg-dark button_one" style = "cursor: default;"> 
+						<a href = "#" class = "button_one" style = "margin-right: 20px;"> <i class="fa fa-instagram button_one" aria-hidden="true"></i> </a> 
+						<a href = "#" class = "button_one"> <i class="fa fa-facebook button_one" aria-hidden="true"></i> </a>
+					</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>

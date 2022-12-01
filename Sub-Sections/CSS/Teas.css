@@ -1,0 +1,74 @@
+body{
+	font-family: 'Work Sans', sans-serif;
+    animation: onload_transition 0.8s;
+}
+
+@keyframes onload_transition {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.hell{
+    margin-top: 50px;
+}
+
+.hell h3{
+    text-align: center;
+}
+
+.center_one{
+    text-align: center;
+}
+
+.fs_1{
+    font-size: 14px;
+}
+
+.page_one{
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.width_one{
+    width: 37rem;
+}
+
+.img1{
+    width: 18rem;
+    height: 12rem;
+}
+
+.img2{
+    width: 15rem;
+    height: 12rem;
+}
+
+.one_of_all{
+	background-color: #0D6EFD;
+	width: 375px;
+	height: 5px;
+	margin-left: 20px;
+	border-radius: 4px;
+}
+
+.one_all{
+	text-decoration: none;
+	text-align: center;
+}
+
+.button_one{
+	padding: 0;
+	margin: 0;
+}
+
+.last_one{
+	gap: 10px;
+}
+
+.part2{
+	gap: 50px;
+}

@@ -1,0 +1,64 @@
+body{
+	font-family: 'Work Sans', sans-serif;
+	animation: onload_transition 0.8s;
+}
+
+@keyframes onload_transition {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+.main_one{
+    margin-top: 70px;
+}
+
+.center_text{
+    text-align: center;
+}
+
+.lighter_text{
+    font-weight: 400;
+}
+
+.center_one{
+    width: 850px;
+}
+
+.one_of_all{
+	background-color: #0D6EFD;
+	width: 375px;
+	height: 5px;
+	margin-left: 20px;
+	border-radius: 4px;
+}
+
+.one_on{
+    transition: 0.2s;
+	cursor: pointer;
+}
+
+.one_on:hover{
+    opacity: 0.4;
+}
+
+.one_all{
+	text-decoration: none;
+	text-align: center;
+}
+
+.button_one{
+	padding: 0;
+	margin: 0;
+}
+
+.last_one{
+	gap: 10px;
+}
+
+.part2{
+	gap: 50px;
+}
