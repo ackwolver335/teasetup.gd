@@ -31,6 +31,10 @@ It is a Front-end site that is been designed with the use of HTML [HyperText Mar
 - Feature or Option available for getting your first **Order Now** from the Setup User.
 - **Footer**, contains the ready links and sign up option directly from general google or mail-id.
 
+### View of Home Page
+
+![Teasetup - Home Page](https://github.com/ackwolver335/teasetup.gd/assets/103741432/6304a4c4-7db3-453b-ac3f-b87fb86dc5d2)
+
 ### About Us - [about_us.html](https://ackwolver335.github.io/teasetup.gd/about_us.html)
 
 - Firstly, it contains the view of our setup, related to orders,feebacks and other feature related to the page.
