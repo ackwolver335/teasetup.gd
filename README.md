@@ -24,6 +24,8 @@ It is a Front-end site that is been designed with the use of HTML [HyperText Mar
 
 ### Home Page - [index.html](https://ackwolver335.github.io/teasetup.gd/index.html)
 
+![Teasetup - Home Page](https://github.com/ackwolver335/teasetup.gd/assets/103741432/4ead1922-b39a-45b6-bad1-f4d9d3d139d3)
+
 - Firstly, it contains a view over to basics of the site.
 - Then, we have provided some of our famous delights.
 - After this overall changes - **Tea**.
@@ -31,11 +33,9 @@ It is a Front-end site that is been designed with the use of HTML [HyperText Mar
 - Feature or Option available for getting your first **Order Now** from the Setup User.
 - **Footer**, contains the ready links and sign up option directly from general google or mail-id.
 
-### View of Home Page
-
-![Teasetup - Home Page](https://github.com/ackwolver335/teasetup.gd/assets/103741432/6304a4c4-7db3-453b-ac3f-b87fb86dc5d2)
-
 ### About Us - [about_us.html](https://ackwolver335.github.io/teasetup.gd/about_us.html)
+
+![Teasetup - About Us](https://github.com/ackwolver335/teasetup.gd/assets/103741432/5f1c813d-df70-498f-9bf9-828e2227a140)
 
 - Firstly, it contains the view of our setup, related to orders,feebacks and other feature related to the page.
 - Proper Explanation of working procedure of our site.
@@ -45,6 +45,8 @@ It is a Front-end site that is been designed with the use of HTML [HyperText Mar
 
 ### Contact Us - [contact_us.html](https://ackwolver335.github.io/teasetup.gd/contact_us.html)
 
+![Teasetup - Contact Us](https://github.com/ackwolver335/teasetup.gd/assets/103741432/3e7d55a4-8713-4bd3-b722-294b834f3499)
+
 - It contains a basic view of our restaurant available on different locations, together by located in cities, contact numbers.
 - Basic Introduction of our **Restaurant**.
 - View of our different **Places**.
@@ -52,11 +54,15 @@ It is a Front-end site that is been designed with the use of HTML [HyperText Mar
 
 ### Create Cart - [create_cart.html](https://ackwolver335.github.io/teasetup.gd/create_cart.html)
 
+![Teasetup - Create Cart Page](https://github.com/ackwolver335/teasetup.gd/assets/103741432/f80f39eb-26f5-4583-be60-97365936a4f3)
+
 - A **form** containing different required options regarding your account and cart creation.
 - **Instructions** to keep in mind and the details to be remember regarding your account details and recovery.
 - **Footer**, same as on the Home Page.
 
 ### Log In - [log_in.html](https://ackwolver335.github.io/teasetup.gd/log_in.html)
+
+![Teasetup - Log In Page](https://github.com/ackwolver335/teasetup.gd/assets/103741432/da29d5cf-fe6a-45b0-83d8-bf91bd153f52)
 
 - A Proper **Log In - Section** containing the details you need to keep in mind while using orders.
 - Our main famed Menu of our ventures pages or startup regarding our **Web App**.
