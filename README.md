@@ -78,7 +78,7 @@ It is a Front-end site that is been designed with the use of HTML [HyperText Mar
 ## 📫 How to Reach Me
 
 - **Email** - abhaych335@gmail.com
-- **Instagram** - [@being_chaudhary.ig](https://www.instagram.com/coding.needs/)
+- **Instagram** - [@coding.needs](https://www.instagram.com/coding.needs/)
 - **Twitter** - [@AbhayCh84760](https://x.com/AbhayCh84760)
 
 ## Support Me
